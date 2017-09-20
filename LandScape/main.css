@@ -1,0 +1,606 @@
+﻿* {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Logo;
+    src: url(Models/font/Logo.ttf);
+}
+
+@font-face {
+    font-family: openSans;
+    src: url(Models/font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: openSansBold;
+    src: url(Models/font/OpenSans-SemiBold.ttf);
+}
+/* Общие стили */
+.cont {
+    justify-content: space-between;
+}
+
+.title h4 {
+    width: 400px;
+    white-space: normal;
+    font-family: openSans;
+    font-weight: 300;
+    line-height: 1.7;
+    color: #7f7f7f;
+}
+
+.bg {
+    background-color: #f8f8f8;
+}
+
+.aling {
+    align-items: center;
+}
+
+.width {
+    width: 100%;
+}
+
+.width_size {
+    width: 1100px;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+
+.center_v {
+    align-items: center;
+}
+
+h1 {
+    margin-left: 10px;
+    font-family: Logo;
+    color: #1c2026;
+}
+/* logo */
+.logo {
+    height: 80px;
+}
+
+.menu li {
+    margin: 10px;
+    font-family: openSansBold;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+    .menu li:hover {
+        color: #d08f11;
+        cursor: pointer;
+    }
+
+.city {
+    font-family: openSans;
+}
+
+    .city i {
+        color: #8a703e;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+.speed {
+    font-family: openSans;
+    font-size: 15px;
+    color: #8a703e;
+    border: none;
+    margin-left: 10px;
+    border-bottom: 1px dashed #d64e30;
+    cursor: pointer;
+}
+
+.city select {
+    cursor: pointer;
+    outline: none;
+}
+
+.phone {
+    font-family: openSansBold;
+    font-size: 20px;
+}
+/* Slider */
+.slider {
+    height: 500px;
+    background-color: #566779;
+    box-shadow: 8px 19px 9px -19px #000000 inset;
+}
+
+.colnes {
+    color: #ffffff;
+    width: 560px;
+}
+
+    .colnes h2 {
+        font-family: openSansBold;
+        font-size: 65px;
+    }
+
+    .colnes h3 {
+        margin-top: -15px;
+        font-family: openSansBold;
+        font-size: 34px;
+    }
+
+    .colnes p {
+        margin: 20px 0 20px 0;
+        font-family: openSans;
+        font-size: 18px;
+    }
+
+    .colnes button {
+        cursor: pointer;
+        font-size: 36px;
+        padding: 15px;
+        background-color: #9c3d3d;
+        border: solid 2px #893535;
+        outline: none;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+
+    .colnes input {
+        cursor: pointer;
+        font-size: 36px;
+        padding: 15px;
+        background-color: #9c3d3d;
+        border: solid 2px #893535;
+        outline: none;
+        border-radius: 5px;
+        color: #ffffff;
+    }
+
+.us {
+    margin: 20px 0 5px 0;
+}
+/* преимущества */
+.line {
+    height: 2px;
+    width: 100%;
+    background-color: #202020;
+}
+
+.title {
+    margin: 20px 0 20px 0;
+    width: 100%;
+    white-space: nowrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.our h4 {
+    color: #9eb235;
+    font-family: openSans;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.box_our {
+    justify-content: space-around;
+}
+
+    .box_our li {
+        margin-bottom: 20px;
+    }
+
+    .box_our p {
+        margin-top: 5px;
+        font-size: 14px;
+        font-family: openSans;
+        width: 300px;
+    }
+
+.title h2 {
+    font-family: openSans;
+    font-size: 48px;
+    color: #202020;
+}
+
+.title h3 {
+    font-family: openSans;
+    font-size: 30px;
+    color: #202020;
+}
+
+.Semis {
+    margin: 20px;
+}
+/* Бизнес */
+.bis p {
+    margin: 14px 0 14px 0;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: openSans;
+    max-width: 300px;
+}
+
+.Semis h5 {
+    font-size: 20px;
+    font-family: openSans;
+}
+
+.Semis a {
+    font-size: 16px;
+    color: #292a2b;
+    font-weight: 700;
+}
+
+.down_line {
+    height: 2px;
+    width: 100px;
+    background-color: #292a2b;
+}
+
+.left_histor {
+    margin: 20px 20px 0 0;
+}
+
+.communications {
+    width: 420px;
+}
+
+    .communications .ds input {
+        outline: none;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        border: 0;
+        border-bottom: 1px solid #b8b8b8;
+    }
+
+    .communications .sd input {
+        outline: none;
+        margin-right: 20px;
+        margin-bottom: 15px;
+        border: 0;
+        border-bottom: 1px solid #b8b8b8;
+    }
+
+.sd input {
+    width: 200px;
+}
+
+.psg {
+    width: 420px;
+}
+
+.com_button {
+    justify-content: flex-end;
+}
+
+    .com_button input {
+        font-size: 15px;
+        font-family: openSans;
+        outline: none;
+        border: none;
+        width: 100px;
+        height: 34px;
+        background: #ffffff;
+        border: 2px solid #5d5e60;
+        cursor: pointer;
+    }
+
+        .com_button input:hover {
+            background-color: #5d5e60;
+            color: #ffffff;
+        }
+/* Низ */
+.slide {
+    margin: 10px;
+}
+
+.works {
+    background-color: #f8f8f8;
+}
+
+    .works .title {
+        margin: 0 0 20px 0;
+    }
+
+    .works h2 {
+        margin-top: 10px;
+    }
+
+
+/* FOOTER */
+.footer {
+    background-color: #292a2b;
+    height: 50px;
+    font-family: openSans;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+@media (min-width: 1024px) {
+    .bis {
+        flex-direction: row;
+    }
+
+    .clear_more {
+        display: none;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1024px) {
+    .bis {
+        flex-direction: column;
+    }
+
+    .Icons {
+        display: flex;
+    }
+
+    .clear1024 {
+        display: none;
+    }
+
+    .newer {
+        margin-top: -150px;
+    }
+
+    .width_size {
+        width: 100%;
+    }
+
+    .bolt {
+        margin-right: 80px;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .Semis {
+        margin: 0;
+        margin-left: 10px;
+    }
+
+    .box_our img {
+        width: 75px;
+    }
+
+    .stent {
+        justify-content: space-around;
+    }
+
+    .logation img {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .clear1440 {
+        display: none;
+    }
+
+    .bolt {
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 800px) {
+    .clear800 {
+        display: none;
+    }
+
+    .landscape {
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .box_our {
+        display: block;
+    }
+
+        .box_our p {
+            font-size: 17px;
+        }
+
+    .bis {
+        display: block;
+    }
+
+        .bis p {
+            font-size: 17px;
+        }
+
+    .stent {
+        justify-content: space-around;
+    }
+
+    .bolt {
+        margin: 0;
+    }
+
+    .logation h1 {
+        margin: 5px 0 5px 10px;
+    }
+
+    .less {
+        display: inline-block;
+    }
+
+    .less_right {
+        margin: 10px 20px 0 0;
+        cursor: pointer;
+        float: right;
+    }
+
+    .colnes {
+        max-width: 450px;
+    }
+
+    .title h2 {
+        font-size: 30px;
+    }
+
+    .title h3 {
+        font-size: 25px;
+    }
+
+    .colnes h2 {
+        font-size: 48px;
+    }
+
+    .colnes h3 {
+        font-size: 25px;
+    }
+
+    .menu {
+        padding: 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    .box_our img {
+        width: 75px;
+    }
+
+    .colnes {
+        max-width: 350px;
+        padding: 10px;
+    }
+
+        .colnes p {
+            width: 100%;
+        }
+
+        .colnes h2 {
+            font-size: 35px;
+        }
+
+        .colnes h3 {
+            font-size: 20px;
+            margin-top: -10px;
+        }
+    /* Колоки ОБ*/
+    .communications {
+        width: 100%;
+    }
+
+        .communications .sd input {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .communications .ds input {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+    .psg {
+        width: 95%;
+    }
+
+    .sd input {
+        width: 50%;
+    }
+
+    .menu {
+        padding: 10%;
+    }
+}
+
+@media (max-width: 400px) {
+    .title h2 {
+        font-size: 25px;
+    }
+
+    .title h3 {
+        font-size: 20px;
+    }
+
+    .bis img {
+        margin-left: 10px;
+    }
+
+    .box_our img {
+        margin-left: 10px;
+    }
+
+    .colnes {
+        max-width: 300px;
+        padding: 10px;
+    }
+
+        .colnes p {
+            width: 100%;
+        }
+
+        .colnes h2 {
+            font-size: 35px;
+        }
+
+        .colnes h3 {
+            font-size: 18px;
+            margin-top: -5px;
+        }
+
+    .Semis {
+        margin: 10px;
+    }
+
+    .box_our p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .bis p {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .title h4 {
+        width: 100%;
+    }
+
+    .menu {
+        padding: 10%;
+    }
+}
+
+
+/* Скрытые стили*/
+.exit {
+    margin: 50px 0 0 20px;
+    font-family: sans-serif;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.line_menu {
+    background-color: #4c4c4c;
+    height: 1px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.sub {
+    width: 50%;
+    background-color: #282626;
+    position: fixed;
+    color: #ffffff;
+}
+
+.None {
+    display: none;
+}
